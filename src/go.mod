@@ -1,4 +1,5 @@
-module github.com/ciehanski/libgen-cli
+module github.com/Rthrall/libgen-cli-rthrall
+// module github.com/ciehanski/libgen-cli
 
 go 1.22.5
 
