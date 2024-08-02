@@ -5,6 +5,7 @@ module github.com/Rthrall/libgen-cli-rthrall
 go 1.22.5
 
 require (
+	github.com/astaxie/beego v1.12.3
 	github.com/cheggaaa/pb/v3 v3.1.0
 	github.com/chzyer/readline v1.5.1
 	github.com/ciehanski/libgen-cli v1.1.0
@@ -163,6 +164,7 @@ require (
 	github.com/raulk/go-watchdog v1.3.0 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
 	github.com/samber/lo v1.36.0 // indirect
+	github.com/shiena/ansicolor v0.0.0-20151119151921-a422bbe96644 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7 // indirect
@@ -206,7 +208,8 @@ require (
 	google.golang.org/grpc v1.55.0 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 	gopkg.in/square/go-jose.v2 v2.5.1 // indirect
+	gopkg.in/yaml.v2 v2.4.0 // indirect
 	lukechampine.com/blake3 v1.2.1 // indirect
 )
 
-replace github.com/webui-dev/go-webui/v2 v2.4.3 => ./modules/go-webui
+replace github.com/webui-dev/go-webui/v2 v2.4.3 => ./modules/go-webui/v2
