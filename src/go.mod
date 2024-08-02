@@ -15,6 +15,7 @@ require (
 	github.com/ipfs/kubo v0.23.0
 	github.com/manifoldco/promptui v0.9.0
 	github.com/spf13/cobra v1.7.0
+	github.com/webui-dev/go-webui/v2 v2.4.3
 )
 
 require (
@@ -207,3 +208,5 @@ require (
 	gopkg.in/square/go-jose.v2 v2.5.1 // indirect
 	lukechampine.com/blake3 v1.2.1 // indirect
 )
+
+replace github.com/webui-dev/go-webui/v2 v2.4.3 => ./modules/go-webui
