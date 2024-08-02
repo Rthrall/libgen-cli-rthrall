@@ -21,20 +21,12 @@ import (
 	"os"
 	"strconv"
 	"github.com/astaxie/beego"
-	ui "github.com/webui-dev/go-webui/v2"
 
 	libgen_cli "github.com/ciehanski/libgen-cli/cmd/libgen-cli"
 	"github.com/ciehanski/libgen-cli/libgen"
 )
 
 func main() {
-	w := ui.NewWindow()
-	// Bind a Go function.
-	ui.Bind(w, "greet", greet)
-	// Show frontend.
-	w.Show("index.html")
-	// Wait until all windows get closed.
-	ui.Wait()
 	client := http.Client{Timeout: libgen.HTTPClientTimeout, Transport: &http.Transport{Proxy: http.ProxyFromEnvironment}}
 	_, err := client.Get("http://clients3.google.com/generate_204")
 	if err != nil {
@@ -48,9 +40,3 @@ func main() {
 	}
 }
 
-func greet(e ui.Event) string {
-	name, _ := ui.GetArg[string](e)
-	fmt.Printf("%s has reached the backend!\n", name)
-	jsResp := fmt.Sprintf("Hello %s 🐇", name)
-	return jsResp
-}

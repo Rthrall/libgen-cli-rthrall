@@ -372,8 +372,6 @@ github.com/ipfs/go-ipfs-delay
 # github.com/ipfs/go-ipfs-ds-help v1.1.0
 ## explicit; go 1.16
 github.com/ipfs/go-ipfs-ds-help
-# github.com/ipfs/go-ipfs-files v0.3.0
-## explicit; go 1.18
 # github.com/ipfs/go-ipfs-pq v0.0.3
 ## explicit; go 1.19
 github.com/ipfs/go-ipfs-pq
@@ -396,8 +394,6 @@ github.com/ipfs/go-ipld-git
 # github.com/ipfs/go-ipld-legacy v0.2.1
 ## explicit; go 1.19
 github.com/ipfs/go-ipld-legacy
-# github.com/ipfs/go-libipfs v0.7.0
-## explicit; go 1.19
 # github.com/ipfs/go-log v1.0.5
 ## explicit; go 1.12
 github.com/ipfs/go-log
@@ -890,9 +886,6 @@ github.com/syndtr/goleveldb/leveldb/util
 # github.com/ucarion/urlpath v0.0.0-20200424170820-7ccc79b76bbb
 ## explicit; go 1.12
 github.com/ucarion/urlpath
-# github.com/webui-dev/go-webui/v2 v2.4.3 => ./modules/go-webui/v2
-## explicit; go 1.22.5
-github.com/webui-dev/go-webui/v2
 # github.com/whyrusleeping/base32 v0.0.0-20170828182744-c30ac30633cc
 ## explicit
 github.com/whyrusleeping/base32
